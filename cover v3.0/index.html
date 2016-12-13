@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>eshineDialog</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<input type="button" id="input1" value="dialog">
+</body>
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/eshineDialog.js"></script>
+<script>
+	$("#input1").eshineDialog({
+		title:'提示',
+		content:'恭喜您获得大奖',
+		dropClose:true,			//点击遮罩关闭弹窗(默认false)
+		theme:'green',			//选择主题（默认绿色，暂时只有绿色）
+  });
+</script>
+</html>
