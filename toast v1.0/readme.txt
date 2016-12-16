@@ -1,7 +1,7 @@
 /*
  *12/13/2016
  *create by cjt
- *eshineDialog
+ *eshineToast
  */
 
 使用
