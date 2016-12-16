@@ -8,15 +8,30 @@
 </head>
 <body>
 	<input type="button" id="input1" value="dialog">
+	
+	<!-- modal -->
+	<div class="all-cover">
+	  <article class="cover cover3">
+	    <div class="info info3">
+	      <p class="info-p1 info2-p1">请登录</p>
+	      <p class="info-p2">您还未登录，登陆后才可以进行投票</p>
+	      <div class="btn-grounp">
+	        <div class="left-btn">知道了</div>
+	        <!-- <div class="right-btn">我要登陆</div> -->
+	      </div>
+	    </div>
+	  </article>
+	</div>
 </body>
 	<script src="js/jquery-1.9.1.js"></script>
 	<script src="js/eshineDialog.js"></script>
 <script>
-	$("#input1").eshineDialog({
-		title:'提示',
-		content:'恭喜您获得大奖',
-		dropClose:true,			//点击遮罩关闭弹窗(默认false)
-		theme:'green',			//选择主题（默认绿色，暂时只有绿色）
+
+  $("#input1").eshineDialog({
+    title:'提示',
+    content:'成功',
+    dropClose:true,     //点击遮罩关闭弹窗(默认false)
+    theme:'green',      //选择主题（默认绿色，暂时只有绿色）
   });
 </script>
 </html>
