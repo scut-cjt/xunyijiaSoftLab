@@ -4,10 +4,10 @@
  *eshineDialog
  */
 
-使用
+浣跨敤
 
-step1.引入Js文件
+step1.寮曞叆Js鏂囦欢
 
-step2.初始化eshineDialog
+step2.鍒濆鍖杄shineToast
 
-step3.配置options
+step3.閰嶇疆options
