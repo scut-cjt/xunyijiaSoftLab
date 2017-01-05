@@ -7,3 +7,4 @@ now we have 2 plugins,they are:
 
 # eshineToast
 
+# adminSys
