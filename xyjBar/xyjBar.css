@@ -1,0 +1,26 @@
+.xyj-progress-group{
+  width:150px;
+  height:150px;
+  background:#ddd;
+  border-radius:100%;
+  position:relative;
+  overflow:hidden;
+}
+.xyj-progress-content{
+  text-align:center;
+  font-size:20px;
+  position:absolute;
+  border-radius:100%;
+  left:0;right:0;top:0;bottom:0;
+  margin:auto;
+  background:#fff;
+  z-index:9;
+}
+.xyj-progress-left,.xyj-progress-right{
+  position:absolute;
+  z-index:8;
+  width:50%;
+  background:#ff9800;
+}
+.xyj-progress-left{left:0;top:0;display:none}
+.xyj-progress-right{right:0;bottom:0;display:none}
